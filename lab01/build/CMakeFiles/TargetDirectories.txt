@@ -1,0 +1,5 @@
+/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/build/CMakeFiles/task.dir
+/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/build/CMakeFiles/tests.dir
+/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/build/CMakeFiles/test.dir
+/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/build/CMakeFiles/edit_cache.dir
+/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/build/CMakeFiles/rebuild_cache.dir
