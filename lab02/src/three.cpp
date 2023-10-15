@@ -1,7 +1,7 @@
 #include "three.hpp"
 #include <algorithm>
 
-// Check char for six-base number system
+// Check char for three-base number system
 bool isThree(char s) {
     return (0 <= s - '0') && (s - '0' < 3);
 }
