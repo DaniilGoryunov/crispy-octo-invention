@@ -31,6 +31,11 @@ TEST(test06, vowels) {
     ASSERT_TRUE(number_vowels(s) == 0);
 }
 
+TEST(test07, vowels) {
+    std::string s = "daniil";
+    ASSERT_TRUE(number_vowels(s) == 3);
+}
+
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();

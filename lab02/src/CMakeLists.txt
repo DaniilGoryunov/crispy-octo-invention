@@ -1,0 +1,1 @@
+add_library(three_lib three.cpp)

@@ -1,5 +1,5 @@
 CMakeFiles/tests.dir/tests.cpp.o: \
-  /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/tests.cpp \
+  /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/tests.cpp \
   /usr/local/include/gtest/gtest.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
@@ -780,4 +780,4 @@ CMakeFiles/tests.dir/tests.cpp.o: \
   /usr/local/include/gtest/gtest-typed-test.h \
   /usr/local/include/gtest/gtest_pred_impl.h \
   /usr/local/include/gtest/gtest_prod.h \
-  /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/solve.hpp
+  /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/solve.hpp

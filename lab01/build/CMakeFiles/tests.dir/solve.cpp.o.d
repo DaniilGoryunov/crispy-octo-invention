@@ -1,6 +1,6 @@
 CMakeFiles/tests.dir/solve.cpp.o: \
-  /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/solve.cpp \
-  /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/solve.hpp \
+  /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/solve.cpp \
+  /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab01/solve.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h \

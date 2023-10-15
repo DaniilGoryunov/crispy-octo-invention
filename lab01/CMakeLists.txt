@@ -9,7 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(task main.cpp solve.cpp)
 
-
 enable_testing()
 add_executable(tests tests.cpp  solve.cpp)
 target_link_libraries(tests ${GTEST_LIBRARIES})
