@@ -1,8 +1,8 @@
-#include "coord.hpp"
-#include "hexagon.hpp"
-#include "pentagon.hpp"
-#include "romb.hpp"
-#include "array.hpp"
+#include "src/coord.hpp"
+#include "src/hexagon.hpp"
+#include "src/pentagon.hpp"
+#include "src/romb.hpp"
+#include "src/array.hpp"
 #include <gtest/gtest.h>
 #include <cmath>
 

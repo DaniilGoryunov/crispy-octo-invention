@@ -12,9 +12,9 @@ public:
     Romb(const std::initializer_list<Coord> & t);
     Romb(Coord first, Coord second, Coord third, Coord fourth);
     Romb(const std::vector<Coord> & t);
-    ~Romb() noexcept;
-    virtual Coord get_center() const override;
-    virtual operator double() const override;
+    ~Romb();
+    virtual Coord get_center() const noexcept override;
+    virtual operator double() const noexcept override;
     bool operator==(const Romb & rhs) const noexcept;
     bool operator!=(const Romb & rhs) const noexcept;
     bool operator>(const Romb & rhs) const noexcept;

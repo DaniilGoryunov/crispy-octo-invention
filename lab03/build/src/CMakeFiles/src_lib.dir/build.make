@@ -125,24 +125,10 @@ src/CMakeFiles/src_lib.dir/figure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src_lib.dir/figure.cpp.s"
 	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/figure.cpp -o CMakeFiles/src_lib.dir/figure.cpp.s
 
-src/CMakeFiles/src_lib.dir/romb.cpp.o: src/CMakeFiles/src_lib.dir/flags.make
-src/CMakeFiles/src_lib.dir/romb.cpp.o: /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/romb.cpp
-src/CMakeFiles/src_lib.dir/romb.cpp.o: src/CMakeFiles/src_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/src_lib.dir/romb.cpp.o"
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/src_lib.dir/romb.cpp.o -MF CMakeFiles/src_lib.dir/romb.cpp.o.d -o CMakeFiles/src_lib.dir/romb.cpp.o -c /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/romb.cpp
-
-src/CMakeFiles/src_lib.dir/romb.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src_lib.dir/romb.cpp.i"
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/romb.cpp > CMakeFiles/src_lib.dir/romb.cpp.i
-
-src/CMakeFiles/src_lib.dir/romb.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src_lib.dir/romb.cpp.s"
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/romb.cpp -o CMakeFiles/src_lib.dir/romb.cpp.s
-
 src/CMakeFiles/src_lib.dir/pentagon.cpp.o: src/CMakeFiles/src_lib.dir/flags.make
 src/CMakeFiles/src_lib.dir/pentagon.cpp.o: /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/pentagon.cpp
 src/CMakeFiles/src_lib.dir/pentagon.cpp.o: src/CMakeFiles/src_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/src_lib.dir/pentagon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/src_lib.dir/pentagon.cpp.o"
 	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/src_lib.dir/pentagon.cpp.o -MF CMakeFiles/src_lib.dir/pentagon.cpp.o.d -o CMakeFiles/src_lib.dir/pentagon.cpp.o -c /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/pentagon.cpp
 
 src/CMakeFiles/src_lib.dir/pentagon.cpp.i: cmake_force
@@ -153,14 +139,28 @@ src/CMakeFiles/src_lib.dir/pentagon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src_lib.dir/pentagon.cpp.s"
 	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/pentagon.cpp -o CMakeFiles/src_lib.dir/pentagon.cpp.s
 
+src/CMakeFiles/src_lib.dir/romb.cpp.o: src/CMakeFiles/src_lib.dir/flags.make
+src/CMakeFiles/src_lib.dir/romb.cpp.o: /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/romb.cpp
+src/CMakeFiles/src_lib.dir/romb.cpp.o: src/CMakeFiles/src_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/src_lib.dir/romb.cpp.o"
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/src_lib.dir/romb.cpp.o -MF CMakeFiles/src_lib.dir/romb.cpp.o.d -o CMakeFiles/src_lib.dir/romb.cpp.o -c /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/romb.cpp
+
+src/CMakeFiles/src_lib.dir/romb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src_lib.dir/romb.cpp.i"
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/romb.cpp > CMakeFiles/src_lib.dir/romb.cpp.i
+
+src/CMakeFiles/src_lib.dir/romb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src_lib.dir/romb.cpp.s"
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/romb.cpp -o CMakeFiles/src_lib.dir/romb.cpp.s
+
 # Object files for target src_lib
 src_lib_OBJECTS = \
 "CMakeFiles/src_lib.dir/hexagon.cpp.o" \
 "CMakeFiles/src_lib.dir/array.cpp.o" \
 "CMakeFiles/src_lib.dir/coord.cpp.o" \
 "CMakeFiles/src_lib.dir/figure.cpp.o" \
-"CMakeFiles/src_lib.dir/romb.cpp.o" \
-"CMakeFiles/src_lib.dir/pentagon.cpp.o"
+"CMakeFiles/src_lib.dir/pentagon.cpp.o" \
+"CMakeFiles/src_lib.dir/romb.cpp.o"
 
 # External object files for target src_lib
 src_lib_EXTERNAL_OBJECTS =
@@ -169,8 +169,8 @@ src/libsrc_lib.a: src/CMakeFiles/src_lib.dir/hexagon.cpp.o
 src/libsrc_lib.a: src/CMakeFiles/src_lib.dir/array.cpp.o
 src/libsrc_lib.a: src/CMakeFiles/src_lib.dir/coord.cpp.o
 src/libsrc_lib.a: src/CMakeFiles/src_lib.dir/figure.cpp.o
-src/libsrc_lib.a: src/CMakeFiles/src_lib.dir/romb.cpp.o
 src/libsrc_lib.a: src/CMakeFiles/src_lib.dir/pentagon.cpp.o
+src/libsrc_lib.a: src/CMakeFiles/src_lib.dir/romb.cpp.o
 src/libsrc_lib.a: src/CMakeFiles/src_lib.dir/build.make
 src/libsrc_lib.a: src/CMakeFiles/src_lib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libsrc_lib.a"
