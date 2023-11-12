@@ -61,10 +61,9 @@ Pentagon::Pentagon(Pentagon&& h) noexcept {
 Pentagon::~Pentagon() {}
 
 Coord Pentagon::get_center() const noexcept {
-    Coord c;
-    c.first = (_vertices[0].first + _vertices[1].first + _vertices[2].first + _vertices[3].first + _vertices[4].first) / 5;
-    c.second = (_vertices[0].second + _vertices[1].second + _vertices[2].second + _vertices[3].second + _vertices[4].second) / 5;
-    return c;
+    double a = sqrt((_vertices[0].first - _vertices[3].first) * (_vertices[0].first - _vertices[3].first) + (_vertices[0].second - _vertices[3].second) *  (_vertices[0].second - _vertices[3].second));
+    double R = a / (2 * sin(M_PI / 5));
+    return Coord{_vertices[0].first, (_vertices[0].second - R)};
 }
 
 Pentagon::operator double() const noexcept {

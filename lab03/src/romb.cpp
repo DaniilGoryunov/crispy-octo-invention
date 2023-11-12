@@ -63,8 +63,8 @@ Coord Romb::get_center() const noexcept {
 }
 
 Romb::operator double() const noexcept {
-    double d1 = sqrt((_vertices[0].first + _vertices[2].first) * (_vertices[0].first + _vertices[2].first) - ((_vertices[1].first + _vertices[3].first) * (_vertices[1].first + _vertices[3].first)));
-    double d2 = sqrt(_vertices[0].second + _vertices[2].second) * (_vertices[0].second + _vertices[2].second) - ((_vertices[1].second + _vertices[3].second) * (_vertices[1].second + _vertices[3].second));
+    double d1 = _vertices[0].second - _vertices[2].second;
+    double d2 = _vertices[1].first - _vertices[3].first;
     return 0.5 * d1 * d2;
 }
 

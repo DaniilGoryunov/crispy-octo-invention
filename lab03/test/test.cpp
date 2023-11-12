@@ -303,6 +303,30 @@ TEST(hex_op_move, test03) {
     ASSERT_TRUE(h1 == h3);
 }
 
+/*--------------------------------------ROMB_GET_CENTER--------------------------------------------------------------*/
+
+TEST(romb_center, test01){
+    Romb r1 = {Coord(4, 3), Coord(7, 0), Coord(4, -3), Coord(1, 0)};
+    ASSERT_TRUE(r1.get_center() == Coord(4, 0));
+}
+
+TEST(romb_center, test02){
+    Romb r1 = {Coord(4, 4), Coord(8, 0), Coord(4, -4), Coord(0, 0)};
+    ASSERT_TRUE(r1.get_center() == Coord(4, 0));
+}
+
+/*--------------------------------------ROMB_GET_AREA--------------------------------------------------------------*/
+
+TEST(romb_get_area, test01){
+    Romb r1 {Coord{4, 4}, Coord{8, 0}, Coord{4, -4}, Coord{0, 0}};
+    ASSERT_EQ(double(r1), 32);
+}
+
+TEST(romb_get_area, test02){
+    Romb r1;
+    ASSERT_EQ(double (r1), 0);
+}
+
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
