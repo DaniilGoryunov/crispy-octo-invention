@@ -327,6 +327,19 @@ TEST(romb_get_area, test02){
     ASSERT_EQ(double (r1), 0);
 }
 
+/*----------------------------------------PENT_GET_AREA-------------------------------------------------------------*/
+
+TEST(pent_get_area, test01){
+    Pentagon pent{Coord{1, 0}, Coord{0.3090, 0.9511}, Coord{-0.8090, 0.5878}, Coord{-0.8090, -0.5878}, Coord{0.3090, -0.9511}};
+    double s = double(pent);
+    ASSERT_TRUE(s = 2.37784);
+}
+
+TEST(pent_get_area, test02){
+    Romb r1;
+    ASSERT_EQ(double (r1), 0);
+}
+
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();

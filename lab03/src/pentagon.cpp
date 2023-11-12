@@ -8,7 +8,7 @@ static bool is_eq(double x, double y) noexcept {
 }
 
 double s_Geron(Coord x1, Coord x2, Coord x3){
-    return 0.5 * ((x1.first - x3.first) * (x2.second - x3.second) - (x2.first - x3.first) * (x1.second - x3.second));
+    return 0.5 * (x1.first * (x2.second - x3.second) + x2.first * (x3.second - x1.second) + x3.first * (x1.second - x2.second));
 }
 
 std::ostream& operator<<(std::ostream& os, const Pentagon & h) {
