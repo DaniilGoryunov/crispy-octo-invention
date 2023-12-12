@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libsrc_lib.a CMakeFiles/src_lib.dir/hexagon.cpp.o CMakeFiles/src_lib.dir/array.cpp.o CMakeFiles/src_lib.dir/coord.cpp.o CMakeFiles/src_lib.dir/figure.cpp.o CMakeFiles/src_lib.dir/pentagon.cpp.o CMakeFiles/src_lib.dir/romb.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libsrc_lib.a
