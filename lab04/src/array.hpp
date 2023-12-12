@@ -1,5 +1,5 @@
 #pragma once
-#include "figure.h"
+#include "figure.hpp"
 #include <memory>
 #include <concepts>
 

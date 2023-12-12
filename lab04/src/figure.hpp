@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include "coord.h"
+#include "coord.hpp"
 
 template <class T>
 requires std::is_convertible_v<T, double>

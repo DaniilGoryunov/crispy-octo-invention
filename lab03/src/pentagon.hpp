@@ -24,6 +24,6 @@ public:
     Pentagon& operator=(const Pentagon & rhs);
     Pentagon& operator=(Pentagon&& rhs) noexcept;
 private:
-    static const size_t _num_of_vertices = 6;
+    static const size_t _num_of_vertices = 5;
     std::vector<Coord> _vertices = std::vector<Coord>(_num_of_vertices);
 };

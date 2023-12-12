@@ -3,8 +3,6 @@
 #include "figure.hpp"
 #include <vector>
 
-const double EPS = 1e-7;
-
 template <class T>
 class Romb;
 
@@ -15,18 +13,18 @@ template <class T>
 std::istream& operator>>(std::istream& is, Romb<T> & h);
 
 template <class T>
-class Romb : public Figure {
+class Romb : public Figure<T> {
     friend std::ostream& operator<<(std::ostream& os, const Romb & t);
     friend std::istream& operator>>(std::istream& is, Romb & t);
 public:
     Romb();
     Romb(const Romb & t);
     Romb(Romb&& t) noexcept;
-    Romb(const std::initializer_list<Coord> & t);
+    Romb(const std::initializer_list<Coord<T>> & t);
     Romb(Coord<T> first, Coord<T> second, Coord<T> third, Coord<T> fourth);
-    Romb(const std::vector<Coord> & t);
+    Romb(const std::vector<Coord<T>> & t);
     ~Romb();
-    virtual Coord get_center() const noexcept override;
+    virtual Coord<T> get_center() const noexcept override;
     virtual operator double() const noexcept override;
     bool operator==(const Romb<T> & rhs) const noexcept;
     bool operator!=(const Romb<T> & rhs) const noexcept;
@@ -38,12 +36,8 @@ public:
     Romb& operator=(Romb<T>&& rhs) noexcept;
 private:
     static const size_t _num_of_vertices = 4;
-    std::vector<Coord> _vertices = std::vector<Coord>(_num_of_vertices);
+    std::vector<Coord<T>> _vertices = std::vector<Coord<T>>(_num_of_vertices);
 };
-
-static bool is_eq(double x, double y) noexcept {
-    return std::fabs(x - y) < EPS;
-}
 
 template <class T>
 std::ostream& operator<<(std::ostream& os, const Romb<T> & h) {
@@ -55,8 +49,8 @@ std::ostream& operator<<(std::ostream& os, const Romb<T> & h) {
 
 template <class T>
 std::istream& operator>>(std::istream& is, Romb<T> & h) {
-    std::vector<Coord> v(h._num_of_vertices);
-    for (Coord & elem : v) {
+    std::vector<Coord<T>> v(h._num_of_vertices);
+    for (Coord<T> & elem : v) {
         is >> elem;
     }
     return is;
@@ -64,18 +58,18 @@ std::istream& operator>>(std::istream& is, Romb<T> & h) {
 
 template <class T>
 Romb<T>::Romb() {
-    for (Coord & elem : _vertices) {
+    for (Coord<T> & elem : _vertices) {
         elem = std::make_pair(0, 0);
     }
 }
 
 template <class T>
-Romb<T>::Romb(const std::vector<Coord> & t) : _vertices(t) {}
+Romb<T>::Romb(const std::vector<Coord<T>> & t) : _vertices(t) {}
 
 template <class T>
-Romb<T>::Romb(const std::initializer_list<Coord> & t) {
+Romb<T>::Romb(const std::initializer_list<Coord<T>> & t) {
     size_t i = 0;
-    for (Coord elem : t) {
+    for (Coord<T> elem : t) {
         _vertices[i] = elem;
         ++i;
     }
@@ -103,7 +97,7 @@ template <class T>
 Romb<T>::~Romb() {}
 
 template <class T>
-Coord Romb<T>::get_center() const noexcept {
+Coord<T> Romb<T>::get_center() const noexcept {
     Coord<T> c;
     c.first = (_vertices[0].first + _vertices[3].first + _vertices[2].first + _vertices[1].first) / 4;
     c.second = (_vertices[0].second + _vertices[3].second + _vertices[2].second + _vertices[1].second) / 4;

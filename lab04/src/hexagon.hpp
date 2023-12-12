@@ -1,5 +1,5 @@
 #pragma once
-#include "figure.h"
+#include "figure.hpp"
 #include <vector>
 #include <cmath>
 
