@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src_lib.dir/array.cpp.o"
-  "CMakeFiles/src_lib.dir/array.cpp.o.d"
   "CMakeFiles/src_lib.dir/coord.cpp.o"
   "CMakeFiles/src_lib.dir/coord.cpp.o.d"
   "CMakeFiles/src_lib.dir/figure.cpp.o"

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/test
+# Install script for directory: /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/_deps/googletest-build/cmake_install.cmake")
+  include("/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/_deps/googletest-build/cmake_install.cmake")
 
 endif()
 

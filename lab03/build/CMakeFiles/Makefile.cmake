@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/CMakeLists.txt"
+  "/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/CMakeLists.txt"
   "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeSystem.cmake"
@@ -20,8 +20,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/googletest-src/googletest/cmake/gtest.pc.in"
   "_deps/googletest-src/googletest/cmake/gtest_main.pc.in"
   "_deps/googletest-src/googletest/cmake/internal_utils.cmake"
-  "/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/CMakeLists.txt"
-  "/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/test/CMakeLists.txt"
+  "/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src/CMakeLists.txt"
+  "/Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/test/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCXXInformation.cmake"
