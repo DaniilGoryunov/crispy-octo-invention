@@ -1,0 +1,1 @@
+add_library(src_lib editor.cpp factory_npc.cpp npc.cpp)

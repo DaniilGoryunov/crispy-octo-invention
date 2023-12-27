@@ -1,4 +1,4 @@
-# Install script for directory: /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src
+# Install script for directory: /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

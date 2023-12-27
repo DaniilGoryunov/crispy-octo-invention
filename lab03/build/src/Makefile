@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build
+CMAKE_BINARY_DIR = /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/CMakeFiles /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src//CMakeFiles/progress.marks
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/CMakeFiles 0
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/CMakeFiles /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/src//CMakeFiles/progress.marks
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/src_lib.dir/rule:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/src_lib.dir/rule
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/src_lib.dir/rule
 .PHONY : src/CMakeFiles/src_lib.dir/rule
 
 # Convenience name for target.
@@ -172,39 +172,15 @@ src_lib: src/CMakeFiles/src_lib.dir/rule
 
 # fast build rule for target.
 src_lib/fast:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/build
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/build
 .PHONY : src_lib/fast
-
-array.o: array.cpp.o
-.PHONY : array.o
-
-# target to build an object file
-array.cpp.o:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/array.cpp.o
-.PHONY : array.cpp.o
-
-array.i: array.cpp.i
-.PHONY : array.i
-
-# target to preprocess a source file
-array.cpp.i:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/array.cpp.i
-.PHONY : array.cpp.i
-
-array.s: array.cpp.s
-.PHONY : array.s
-
-# target to generate assembly for a file
-array.cpp.s:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/array.cpp.s
-.PHONY : array.cpp.s
 
 coord.o: coord.cpp.o
 .PHONY : coord.o
 
 # target to build an object file
 coord.cpp.o:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/coord.cpp.o
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/coord.cpp.o
 .PHONY : coord.cpp.o
 
 coord.i: coord.cpp.i
@@ -212,7 +188,7 @@ coord.i: coord.cpp.i
 
 # target to preprocess a source file
 coord.cpp.i:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/coord.cpp.i
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/coord.cpp.i
 .PHONY : coord.cpp.i
 
 coord.s: coord.cpp.s
@@ -220,7 +196,7 @@ coord.s: coord.cpp.s
 
 # target to generate assembly for a file
 coord.cpp.s:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/coord.cpp.s
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/coord.cpp.s
 .PHONY : coord.cpp.s
 
 figure.o: figure.cpp.o
@@ -228,7 +204,7 @@ figure.o: figure.cpp.o
 
 # target to build an object file
 figure.cpp.o:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/figure.cpp.o
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/figure.cpp.o
 .PHONY : figure.cpp.o
 
 figure.i: figure.cpp.i
@@ -236,7 +212,7 @@ figure.i: figure.cpp.i
 
 # target to preprocess a source file
 figure.cpp.i:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/figure.cpp.i
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/figure.cpp.i
 .PHONY : figure.cpp.i
 
 figure.s: figure.cpp.s
@@ -244,7 +220,7 @@ figure.s: figure.cpp.s
 
 # target to generate assembly for a file
 figure.cpp.s:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/figure.cpp.s
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/figure.cpp.s
 .PHONY : figure.cpp.s
 
 hexagon.o: hexagon.cpp.o
@@ -252,7 +228,7 @@ hexagon.o: hexagon.cpp.o
 
 # target to build an object file
 hexagon.cpp.o:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/hexagon.cpp.o
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/hexagon.cpp.o
 .PHONY : hexagon.cpp.o
 
 hexagon.i: hexagon.cpp.i
@@ -260,7 +236,7 @@ hexagon.i: hexagon.cpp.i
 
 # target to preprocess a source file
 hexagon.cpp.i:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/hexagon.cpp.i
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/hexagon.cpp.i
 .PHONY : hexagon.cpp.i
 
 hexagon.s: hexagon.cpp.s
@@ -268,7 +244,7 @@ hexagon.s: hexagon.cpp.s
 
 # target to generate assembly for a file
 hexagon.cpp.s:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/hexagon.cpp.s
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/hexagon.cpp.s
 .PHONY : hexagon.cpp.s
 
 pentagon.o: pentagon.cpp.o
@@ -276,7 +252,7 @@ pentagon.o: pentagon.cpp.o
 
 # target to build an object file
 pentagon.cpp.o:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/pentagon.cpp.o
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/pentagon.cpp.o
 .PHONY : pentagon.cpp.o
 
 pentagon.i: pentagon.cpp.i
@@ -284,7 +260,7 @@ pentagon.i: pentagon.cpp.i
 
 # target to preprocess a source file
 pentagon.cpp.i:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/pentagon.cpp.i
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/pentagon.cpp.i
 .PHONY : pentagon.cpp.i
 
 pentagon.s: pentagon.cpp.s
@@ -292,7 +268,7 @@ pentagon.s: pentagon.cpp.s
 
 # target to generate assembly for a file
 pentagon.cpp.s:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/pentagon.cpp.s
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/pentagon.cpp.s
 .PHONY : pentagon.cpp.s
 
 romb.o: romb.cpp.o
@@ -300,7 +276,7 @@ romb.o: romb.cpp.o
 
 # target to build an object file
 romb.cpp.o:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/romb.cpp.o
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/romb.cpp.o
 .PHONY : romb.cpp.o
 
 romb.i: romb.cpp.i
@@ -308,7 +284,7 @@ romb.i: romb.cpp.i
 
 # target to preprocess a source file
 romb.cpp.i:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/romb.cpp.i
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/romb.cpp.i
 .PHONY : romb.cpp.i
 
 romb.s: romb.cpp.s
@@ -316,7 +292,7 @@ romb.s: romb.cpp.s
 
 # target to generate assembly for a file
 romb.cpp.s:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/romb.cpp.s
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/src_lib.dir/build.make src/CMakeFiles/src_lib.dir/romb.cpp.s
 .PHONY : romb.cpp.s
 
 # Help Target
@@ -332,9 +308,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... src_lib"
-	@echo "... array.o"
-	@echo "... array.i"
-	@echo "... array.s"
 	@echo "... coord.o"
 	@echo "... coord.i"
 	@echo "... coord.s"
@@ -361,6 +334,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/admin/Desktop/МАИ/второй/ооп/oop_labs/lab03/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

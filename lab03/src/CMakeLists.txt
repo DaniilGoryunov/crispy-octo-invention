@@ -1,2 +1,1 @@
-add_library(src_lib hexagon.cpp array.cpp coord.cpp figure.cpp pentagon.cpp romb.cpp)
-
+add_library(src_lib coord.cpp figure.cpp hexagon.cpp pentagon.cpp romb.cpp)

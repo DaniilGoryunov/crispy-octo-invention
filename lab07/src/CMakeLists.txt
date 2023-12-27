@@ -1,0 +1,1 @@
+add_library(src_lib elf_.cpp factory.cpp npc.cpp bear.cpp observer.cpp rogue.cpp observer.h)
